@@ -1,6 +1,6 @@
 from django.urls import path
-from departamento.views import index
+from departamento.views import departamentos
 
 urlpatterns = [
-    path('', index, name='departamento.index')
+    path('', departamentos, name='departamento.departamentos')
 ]
